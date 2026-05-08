@@ -1,0 +1,25 @@
+{
+  "name": "customer-support-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ms365-mcp-server --http --preset mail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zivrubin23-debug/ms365-mcp-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zivrubin23-debug/ms365-mcp-server/issues"
+  },
+  "homepage": "https://github.com/zivrubin23-debug/ms365-mcp-server#readme",
+  "dependencies": {
+    "@softeria/ms-365-mcp-server": "^0.105.0"
+  }
+}
