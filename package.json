@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ms365-mcp-server --http --preset mail"
+    "start": "npx -y @softeria/ms-365-mcp-server --http --preset mail"
   },
   "repository": {
     "type": "git",
